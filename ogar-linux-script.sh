@@ -1,6 +1,22 @@
 // Ogar Linux Script
+#!/bin/bash
 
-#!/bin/sh
+if pwd | grep -qw "src"; then
+node --expose-gc index.js
+else
+echo "You must run Ogar Unlimited from the src folder!"
+fi
+Use # Instead----------------------------------------With---------------------------------
+#!/bin/bash
+if pwd | grep -qw "src"; then
+sudo node --expose-gc index.js
+else
+echo "You must run Ogar Unlimited from the src folder!"
+fi
+so u can replace
+node --expose-gc index.js
+with
+sudo node --expose-gc index.js
 
 
 ##Function Definition
