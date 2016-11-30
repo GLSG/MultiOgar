@@ -11,6 +11,7 @@ MultiOgar code based on Ogar code that I heavily modified, and will continue to 
 Almost all physics and protocol code were rewritten and optimized.
 The [OgarProject](https://ogarproject.com) owns Ogar, and I do not claim it as mine! 
 Original Ogar found [here](https://github.com/OgarProject/Ogar)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 
 The goal is to make good and smooth physics and cleanup the code.
